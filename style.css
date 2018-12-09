@@ -57,11 +57,48 @@ body {
   padding-top: 10px;
   font-size: 40px; }
 
+#about-list li {
+  margin-bottom: 15px; }
+
 .information-section {
-  height: 500px; }
+  margin-bottom: 10px; }
 
 .flag {
   height: 30px;
   width: 50px; }
+
+.content-indent {
+  margin-left: 10px; }
+
+.media-general-container {
+  display: block;
+  margin-left: 20px; }
+
+.media-elem {
+  width: 700px;
+  margin-left: 10px; }
+
+#ib-logo {
+  margin-top: 12px; }
+
+.justify-txt {
+  text-align: justify; }
+
+.media-div-margin {
+  margin-top: 30px; }
+
+.logo {
+  width: 150px; }
+
+#abertay-logo {
+  position: relative;
+  bottom: 8px; }
+
+#tmf {
+  position: relative;
+  border-radius: 10px;
+  border-color: black;
+  border-width: 5px;
+  border-style: solid; }
 
 /*# sourceMappingURL=style.css.map */
