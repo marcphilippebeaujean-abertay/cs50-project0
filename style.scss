@@ -1,0 +1,84 @@
+$sidebar-width: 25%;
+
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(255, 255, 255);
+}
+
+#personal-pic {
+  display: block;
+  width: 70%;
+  height: auto;
+  margin: 0px auto;
+}
+
+#sidebar {
+  width: $sidebar-width;
+  position: fixed;
+  height: 100%;
+  background-color: rgb(189, 189, 241);
+}
+
+#sidebar-space {
+  display: block;
+  width: $sidebar-width;
+}
+
+#sidebar-links {
+  display: flex;
+  margin: 20px auto;
+  flex-direction: column;
+  text-align: center;
+}
+
+#social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.social-media-logo {
+  width: 60px;
+  height: 60px;
+  margin: 0px 10px;
+}
+
+#main-header-div {
+  margin-top: 30px;
+}
+
+.page-link {
+  text-decoration: none;
+  font-size: 30px;
+  margin: 10px 0px;
+  color: rgb(111, 111, 150);
+}
+
+#container-main {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#content-main {
+  width: #{100%-$sidebar-width};
+}
+
+.section-header {
+  padding-top: 10px;
+  font-size: 40px;
+}
+
+.information-section {
+  height: 500px;
+}
+
+.flag {
+  height: 30px;
+  width: 50px;
+}
+
+.list {
+}
