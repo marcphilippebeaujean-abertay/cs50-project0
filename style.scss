@@ -1,4 +1,5 @@
-$sidebar-width: 25%;
+@import "media";
+$sidebar-width: 250px;
 
 body {
   width: 100%;
@@ -7,23 +8,11 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
-#personal-pic {
-  display: block;
-  width: 70%;
-  height: auto;
-  margin: 0px auto;
-}
-
 #sidebar {
   width: $sidebar-width;
   position: fixed;
   height: 100%;
   background-color: rgb(189, 189, 241);
-}
-
-#sidebar-space {
-  display: block;
-  width: $sidebar-width;
 }
 
 #sidebar-links {
@@ -37,12 +26,6 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-}
-
-.social-media-logo {
-  width: 60px;
-  height: 60px;
-  margin: 0px 10px;
 }
 
 #main-header-div {
@@ -63,7 +46,7 @@ body {
 }
 
 #content-main {
-  width: #{100%-$sidebar-width};
+  margin-left: $sidebar-width;
 }
 
 .section-header {
@@ -81,50 +64,10 @@ body {
   margin-bottom: 10px;
 }
 
-.flag {
-  height: 30px;
-  width: 50px;
-}
-
 .content-indent {
   margin-left: 10px;
 }
 
-.media-general-container {
-  display: block;
-  margin-left: 20px;
-}
-
-.media-elem {
-  width: 700px;
-  margin-left: 10px;
-}
-
-#ib-logo {
-  margin-top: 12px;
-}
-
 .justify-txt {
   text-align: justify;
-}
-
-.media-div-margin {
-  margin-top: 30px;
-}
-
-.logo {
-  width: 150px;
-}
-
-#abertay-logo {
-  position: relative;
-  bottom: 8px;
-}
-
-.logo-border {
-  position: relative;
-  border-radius: 10px;
-  border-color: black;
-  border-width: 5px;
-  border-style: solid;
 }
