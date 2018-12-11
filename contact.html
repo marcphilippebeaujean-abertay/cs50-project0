@@ -59,15 +59,43 @@
             Send me a message - I'd love to hear from you!
           </p>
         </div>
-        <div class="container">
-          <div class="row">
-            <div class="col">Column</div>
-            <div class="col">Column</div>
-            <div class="w-100"></div>
-            <div class="col">Column</div>
-            <div class="col">Column</div>
+        <form>
+          <div class="row form-row">
+            <div class="col-lg-3 form-col">
+              <input
+                name="Name"
+                type="text"
+                placeholder="Name"
+                class="form-elem"
+              />
+            </div>
+            <div class="col-lg-3 form-col">
+              <input
+                name="E-Mail"
+                type="text"
+                placeholder="E-Mail"
+                class="form-elem"
+              />
+            </div>
           </div>
-        </div>
+          <div class="row form-row">
+            <div class="col-lg-6 form-col">
+              <textarea
+                className=""
+                id="contact-message"
+                cols="40"
+                rows="5"
+                name="message"
+                placeholder="Message..."
+              ></textarea>
+            </div>
+          </div>
+          <div class="row form-row">
+            <div class="col-lg-6 form-col">
+              <button type="submit">Send Message</button>
+            </div>
+          </div>
+        </form>
       </div>
     </div>
   </body>

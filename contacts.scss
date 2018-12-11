@@ -1,0 +1,32 @@
+$form-font-size: 12px;
+
+.form-row {
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.contact-form-tex-input {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.contact-form-elem {
+  font-size: $form-font-size;
+  box-shadow: 2px 2px 2px 0px rgb(180, 175, 175);
+}
+
+#contact-message {
+  height: 100px;
+  width: 100%;
+  box-sizing: border-box;
+  resize: none;
+}
+
+.form-col {
+  margin: 0px;
+  padding: 0px;
+}
+
+.form-elem {
+  width: 100%;
+}
