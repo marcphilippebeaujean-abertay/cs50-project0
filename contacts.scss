@@ -30,3 +30,12 @@ $form-font-size: 12px;
 .form-elem {
   width: 100%;
 }
+
+@media only screen and (max-width: 1200px) {
+  .form-elem {
+    width: 80%;
+  }
+  #contact-message {
+    width: 80%;
+  }
+}

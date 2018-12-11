@@ -1,156 +1,262 @@
 <!DOCTYPE html>
 <head>
-    <title>Marc Philippe Beaujean</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <title>Marc Philippe Beaujean</title>
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="hamburger-nav-bar">
-        <img src="media/hamburger_icon.png" alt="navigation icon" id="hamburger-nav"/>
+  <div class="hamburger-nav-bar">
+    <img
+      src="media/hamburger_icon.png"
+      alt="navigation icon"
+      id="hamburger-nav"
+    />
+  </div>
+  <div class="sidebar">
+    <img
+      src="media/personal-pic.jpg"
+      alt="picture of me"
+      id="personal-pic"
+      class="img-circle"
+    />
+    <div id="sidebar-links">
+      <a href="static_portfolio.html" class="page-link">About</a>
+      <a href="static_portfolio.html" class="page-link">Education</a>
+      <a href="static_portfolio.html" class="page-link">Projects</a>
+      <a href="table.html" class="page-link">Project Overview</a>
+      <a href="#" class="page-link">Contact</a>
     </div>
-    <div class="sidebar">
-        <img src="media/personal-pic.jpg" alt="picture of me" id="personal-pic" class="img-circle"/>
-        <div id="sidebar-links">
-            <a href="#container-main" class="page-link">About</a>
-            <a href="#education-section" class="page-link">Education</a>
-            <a href="#project-sections" class="page-link">Projects</a>
-            <a href="table.html" class="page-link">Project Overview</a>
-            <a href="contact.html" class="page-link">Contact</a>
-        </div>
-        <div id="social-media">
-            <img src="media/linked-in.png" alt="linked in logo" class="social-media-logo"/>
-            <img src="media/github.png" alt="github logo" class="social-media-logo"/>
-        </div>
+    <div id="social-media">
+      <img
+        src="media/linked-in.png"
+        alt="linked in logo"
+        class="social-media-logo"
+      />
+      <img src="media/github.png" alt="github logo" class="social-media-logo" />
     </div>
-    <div id="container-main">
-        <div id="content-main">
-            <div class="jumbotron jumbotron-fluid" id="main-header-div">
-                <h1 class="display-4">Marc Philippe Beaujean</h1>
-                <p class="lead content-indent">Clean Code. Scalable Architectures. Efficient Algorithms.</p>
+  </div>
+  <div id="container-main">
+    <div id="content-main">
+      <div class="jumbotron jumbotron-fluid" id="main-header-div">
+        <h1 class="display-4">Marc Philippe Beaujean</h1>
+        <p class="lead content-indent">
+          Clean Code. Scalable Architectures. Efficient Algorithms.
+        </p>
+      </div>
+      <div class="information-section">
+        <h2 class="section-header">About</h2>
+        <p class="lead content-indent">
+          Hi! My name is Marc, welcome to my personal website. I'm a passionate
+          software engineer, looking to work on an ambitious and challenging
+          project. Sounds like the type of person you are looking for?
+          <a href="contact.html">Get in touch!</a>
+        </p>
+        <ul class="lead content-indent" id="about-list">
+          <li>Year of Birth: 1996</li>
+          <li>
+            Country of Origin:
+            <img src="media/germany.png" alt="german flag" class="flag" />
+          </li>
+          <li>
+            Spoken Languages:
+            <img src="media/germany.png" alt="british flag" class="flag" /><img
+              src="media/great_britain.png"
+              alt="german flag"
+              class="flag"
+            />
+          </li>
+          <li>
+            Place of Study:
+            <img src="media/scotland.jpg" alt="scottish flag" class="flag" />
+          </li>
+          <li>Favourite Programming Language: Python</li>
+        </ul>
+      </div>
+      <div class="information-section" id="education-section">
+        <h2 class="section-header">Education</h2>
+        <div class="media-general-container">
+          <div class="media media-div-margin media-elem" id="ib-logo">
+            <div class="media-left media-top">
+              <img
+                src="media/ib.jpg"
+                alt="international baccalaureate logo"
+                class="media-object logo"
+              />
             </div>
-            <div class="information-section">
-                <h2 class="section-header">About</h2>
-                <p class="lead content-indent">Hi! My name is Marc, welcome to my personal website. I'm a passionate software engineer, looking to work on an ambitious and challenging project. 
-                    Sounds like the type of person you are looking for? <a href="contact.html">Get in touch!</a></p>
-                <ul class="lead content-indent" id="about-list">
-                    <li>Year of Birth: 1996</li>
-                    <li>Country of Origin: <img src="media/germany.png" alt="german flag" class="flag"/></li>
-                    <li>Spoken Languages: <img src="media/germany.png" alt="british flag" class="flag"/><img src="media/great_britain.png" alt="german flag" class="flag"/></li>
-                    <li>Place of Study: <img src="media/scotland.jpg" alt="scottish flag" class="flag"/></li>
-                    <li>Favourite Programming Language: Python</li>
-                </ul>
+            <div class="media-body">
+              <h4 class="media-heading">International Baccalaureate</h4>
+              <p class="justify-txt">
+                I recieved my highschool diploma after graduating from the
+                International School of Düsseldorf in Germany. Going to
+                international school meant that most of my classes were in
+                english, making me a fluent speaker and writer. I also completed
+                several community and service activities as part of my diploma.
+              </p>
             </div>
-            <div class="information-section" id="education-section">
-                <h2 class="section-header">Education</h2>
-                <div class="media-general-container">
-                    <div class="media media-div-margin media-elem" id="ib-logo">
-                        <div class="media-left media-top">
-                          <img src="media/ib.jpg" alt="international baccalaureate logo" class="media-object logo">
-                        </div>
-                        <div class="media-body">
-                          <h4 class="media-heading">International Baccalaureate</h4>
-                          <p class="justify-txt">I recieved my highschool diploma after graduating from the International School of Düsseldorf in Germany. 
-                              Going to international school meant that most of my classes were in english, making me a fluent 
-                              speaker and writer. I also completed several community and service activities as part of my diploma.</p>
-                        </div>
-                    </div>
-                    <div class="media media-div-margin media-elem">
-                        <div class="media-left media-top">
-                          <img src="media/abertay_logo.png" alt="abertay university logo" class="media-object logo" id="abertay-logo">
-                        </div>
-                        <div class="media-body">
-                          <h4 class="media-heading">Abertay University</h4>
-                          <p class="justify-txt">To further my programming skills, I decided to study Bsc (Hons) Computer Games Applications Development at 
-                              Abertay University in Dundee, Scotland. During my time at Abertay, I have learned about important concepts in computer science 
-                              to help me develop knowledge of data structures, algorithms, as well as general game development. For my honours project, I am
-                              developing a neural network that can colourise black and white images.</p>
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <div class="media media-div-margin media-elem">
+            <div class="media-left media-top">
+              <img
+                src="media/abertay_logo.png"
+                alt="abertay university logo"
+                class="media-object logo"
+                id="abertay-logo"
+              />
             </div>
-            <div class="information-section" id="project-sections">
-                <h2 class="section-header">Extracurricular Projects</h2>
-                <div class="media-general-container">
-                    <div class="media media-div-margin media-elem">
-                        <div class="media-left media-top">
-                          <img src="media/indestructible.png" alt="indestructible logo" class="media-object logo">
-                        </div>
-                        <div class="media-body">
-                          <h4 class="media-heading">Indestructible</h4>
-                          <p class="justify-txt">Submission for Global Game Jam 2018. A simple arcade game, 
-                              where the player needs to press the numbers corresponding to the letters ascending 
-                              from the top of the screen. Release on the Google Playstore anticipated for early 2019.</p>
-                        </div>
-                    </div>
-                    <div class="media media-div-margin media-elem">
-                        <div class="media-left media-top">
-                          <img src="media/missing_few.png" alt="missing few logo" class="media-object logo logo-border">
-                        </div>
-                        <div class="media-body">
-                          <h4 class="media-heading">The Missing Few</h4>
-                          <p class="justify-txt">To gain hands-on experience in the games industry, I decided to join a 
-                            developer team remotely that was working on an adventure game called "The Missing Few". Through 
-                            my work, I have been able to improve my communication skills and gain valuable insights in the 
-                            inner workings of a startup. Since I joined the company, I have been working in various areas 
-                            such as AI, game architecture and mechanics development.</p>
-                        </div>
-                    </div>
-                    <div class="media media-div-margin media-elem">
-                        <div class="media-left media-top">
-                          <img src="media/react-logo.png" alt="react js logo" class="media-object logo" id="">
-                        </div>
-                        <div class="media-body">
-                          <h4 class="media-heading">Web Development</h4>
-                          <p class="justify-txt">Whilst studying a course that focused on games development, I developed a passion for 
-                        general programming and learnt to apply my skills to other areas of software. To be more specific, I began to teach
-                        myself how to develop websites using modern front-end technologies such as ReactJS and create effective backends using Python.</p>
-                        </div>
-                    </div>
-                    <div class="media media-div-margin media-elem">
-                        <div class="media-left media-top">
-                          <img src="media/ggj_logo.png" alt="global game jam logo" class="media-object logo" id="">
-                        </div>
-                        <div class="media-body">
-                          <h4 class="media-heading">Game Jams</h4>
-                          <p class="justify-txt">Throughout my programming carreer, I always had a desire to develop games. Game jams, events where each 
-                            participating team is asked to develop a game based on a provided (usually secret) theme in a very short time, were one of the 
-                            best ways to further my personal growth as a programmer. They taught me a lot about working under time pressure and also allowed
-                            me to use my skills in a creative and fun manner. During my time at university, I have participated in over different 6 game jams.
-                          </p>
-                        </div>
-                    </div>
-                </div>
+            <div class="media-body">
+              <h4 class="media-heading">Abertay University</h4>
+              <p class="justify-txt">
+                To further my programming skills, I decided to study Bsc (Hons)
+                Computer Games Applications Development at Abertay University in
+                Dundee, Scotland. During my time at Abertay, I have learned
+                about important concepts in computer science to help me develop
+                knowledge of data structures, algorithms, as well as general
+                game development. For my honours project, I am developing a
+                neural network that can colourise black and white images.
+              </p>
             </div>
-            <div class="information-section">
-                <h2 class="section-header">University Coursework</h2>
-                <div class="media-general-container">
-                    <div class="media media-div-margin media-elem">
-                        <div class="media-left media-top">
-                          <img src="media/breakout_ar.png" alt="breakout AR logo" class="media-object logo logo-border">
-                        </div>
-                        <div class="media-body">
-                          <h4 class="media-heading">Applied Games Technology (Augmented Reality)</h4>
-                          <p class="justify-txt">I developed a an application that was based on the arcade classic "Breakout" for the Sony Playstation Vita, 
-                              that used AR markers and scene mapping detection technology to offer a unique experience from the original game. Many aspects of the game's 
-                              architecture, such as multiple types of collision detection and a Unity-esque component system, were coded from scratch. 
-                          </p>
-                        </div>
-                    </div>
-                    <div class="media media-div-margin media-elem">
-                        <div class="media-left media-top">
-                            <img src="media/dx11.png" alt="directX logo" class="media-object logo logo-border">
-                        </div>
-                        <div class="media-body">
-                            <h4 class="media-heading">Graphics Programming with Shaders</h4>
-                            <p class="justify-txt">An application showcasing various intricate graphics programming techniques. Techniques used include but are not
-                                limited to distance based tessellation, billboarding for particles using geometry shader, post processing effects like blur or bloom
-                                and displacement mapping with the vertex shader.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+      </div>
+      <div class="information-section" id="project-sections">
+        <h2 class="section-header">Extracurricular Projects</h2>
+        <div class="media-general-container">
+          <div class="media media-div-margin media-elem">
+            <div class="media-left media-top">
+              <img
+                src="media/indestructible.png"
+                alt="indestructible logo"
+                class="media-object logo"
+              />
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Indestructible</h4>
+              <p class="justify-txt">
+                Submission for Global Game Jam 2018. A simple arcade game, where
+                the player needs to press the numbers corresponding to the
+                letters ascending from the top of the screen. Release on the
+                Google Playstore anticipated for early 2019.
+              </p>
+            </div>
+          </div>
+          <div class="media media-div-margin media-elem">
+            <div class="media-left media-top">
+              <img
+                src="media/missing_few.png"
+                alt="missing few logo"
+                class="media-object logo logo-border"
+              />
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">The Missing Few</h4>
+              <p class="justify-txt">
+                To gain hands-on experience in the games industry, I decided to
+                join a developer team remotely that was working on an adventure
+                game called "The Missing Few". Through my work, I have been able
+                to improve my communication skills and gain valuable insights in
+                the inner workings of a startup. Since I joined the company, I
+                have been working in various areas such as AI, game architecture
+                and mechanics development.
+              </p>
+            </div>
+          </div>
+          <div class="media media-div-margin media-elem">
+            <div class="media-left media-top">
+              <img
+                src="media/react-logo.png"
+                alt="react js logo"
+                class="media-object logo"
+                id=""
+              />
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Web Development</h4>
+              <p class="justify-txt">
+                Whilst studying a course that focused on games development, I
+                developed a passion for general programming and learnt to apply
+                my skills to other areas of software. To be more specific, I
+                began to teach myself how to develop websites using modern
+                front-end technologies such as ReactJS and create effective
+                backends using Python.
+              </p>
+            </div>
+          </div>
+          <div class="media media-div-margin media-elem">
+            <div class="media-left media-top">
+              <img
+                src="media/ggj_logo.png"
+                alt="global game jam logo"
+                class="media-object logo"
+                id=""
+              />
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Game Jams</h4>
+              <p class="justify-txt">
+                Throughout my programming carreer, I always had a desire to
+                develop games. Game jams, events where each participating team
+                is asked to develop a game based on a provided (usually secret)
+                theme in a very short time, were one of the best ways to further
+                my personal growth as a programmer. They taught me a lot about
+                working under time pressure and also allowed me to use my skills
+                in a creative and fun manner. During my time at university, I
+                have participated in over different 6 game jams.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="information-section">
+        <h2 class="section-header">University Coursework</h2>
+        <div class="media-general-container">
+          <div class="media media-div-margin media-elem">
+            <div class="media-left media-top">
+              <img
+                src="media/breakout_ar.png"
+                alt="breakout AR logo"
+                class="media-object logo logo-border"
+              />
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">
+                Applied Games Technology (Augmented Reality)
+              </h4>
+              <p class="justify-txt">
+                I developed a an application that was based on the arcade
+                classic "Breakout" for the Sony Playstation Vita, that used AR
+                markers and scene mapping detection technology to offer a unique
+                experience from the original game. Many aspects of the game's
+                architecture, such as multiple types of collision detection and
+                a Unity-esque component system, were coded from scratch.
+              </p>
+            </div>
+          </div>
+          <div class="media media-div-margin media-elem">
+            <div class="media-left media-top">
+              <img
+                src="media/dx11.png"
+                alt="directX logo"
+                class="media-object logo logo-border"
+              />
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Graphics Programming with Shaders</h4>
+              <p class="justify-txt">
+                An application showcasing various intricate graphics programming
+                techniques. Techniques used include but are not limited to
+                distance based tessellation, billboarding for particles using
+                geometry shader, post processing effects like blur or bloom and
+                displacement mapping with the vertex shader.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 </body>
-</head>
