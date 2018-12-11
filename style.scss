@@ -1,5 +1,7 @@
 @import "media";
 @import "contacts";
+@import "table";
+
 $sidebar-width: 300px;
 $hamburger-bar-height: 60px;
 $nav-bg-colour: rgb(189, 189, 241);
@@ -86,6 +88,11 @@ body {
   text-align: justify;
 }
 
+.blog-post-main {
+  width: 600px;
+  text-align: justify;
+}
+
 @media only screen and (max-width: 800px) {
   .sidebar {
     position: relative;
@@ -97,5 +104,8 @@ body {
   }
   .hamburger-nav-bar {
     display: initial;
+  }
+  .blog-post-main {
+    width: 90%;
   }
 }

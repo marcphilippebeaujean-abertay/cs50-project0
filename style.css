@@ -84,6 +84,9 @@
 
   #contact-message {
     width: 80%; } }
+.main-row {
+  background-color: #79cc79; }
+
 .sidebar, .hamburger-nav-bar {
   position: fixed;
   background-color: #bdbdf1; }
@@ -147,6 +150,10 @@ body {
 .justify-txt {
   text-align: justify; }
 
+.blog-post-main {
+  width: 600px;
+  text-align: justify; }
+
 @media only screen and (max-width: 800px) {
   .sidebar {
     position: relative;
@@ -157,6 +164,9 @@ body {
     margin-top: 60px; }
 
   .hamburger-nav-bar {
-    display: initial; } }
+    display: initial; }
+
+  .blog-post-main {
+    width: 90%; } }
 
 /*# sourceMappingURL=style.css.map */
