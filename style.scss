@@ -1,5 +1,12 @@
 @import "media";
 $sidebar-width: 300px;
+$hamburger-bar-height: 60px;
+$nav-bg-colour: rgb(189, 189, 241);
+
+%nav-element {
+  position: fixed;
+  background-color: $nav-bg-colour;
+}
 
 body {
   width: 100%;
@@ -8,11 +15,17 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
-#sidebar {
+.sidebar {
   width: $sidebar-width;
-  position: fixed;
   height: 100%;
-  background-color: rgb(189, 189, 241);
+  @extend %nav-element;
+}
+
+.hamburger-nav-bar {
+  @extend %nav-element;
+  width: 100%;
+  height: $hamburger-bar-height;
+  display: none;
 }
 
 #sidebar-links {
@@ -70,4 +83,18 @@ body {
 
 .justify-txt {
   text-align: justify;
+}
+
+@media only screen and (max-width: 800px) {
+  .sidebar {
+    position: relative;
+    display: none;
+  }
+  #content-main {
+    margin-left: 0px;
+    margin-top: $hamburger-bar-height;
+  }
+  .hamburger-nav-bar {
+    display: initial;
+  }
 }

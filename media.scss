@@ -49,3 +49,23 @@
   height: auto;
   margin: 0px auto;
 }
+
+#hamburger-nav {
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .media-general-container {
+    margin-left: 20px;
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    width: 75px;
+  }
+}
